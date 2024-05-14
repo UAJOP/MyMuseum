@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114357742259",
+    "project_id": "mymuseum-d310d",
+    "storage_bucket": "mymuseum-d310d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114357742259:android:5875302b859d8f6b241ec6",
+        "android_client_info": {
+          "package_name": "com.kaanbalci.mymuseum"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM7jzFXBOlfM44BOdrkC5xHm8OQzkLcs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

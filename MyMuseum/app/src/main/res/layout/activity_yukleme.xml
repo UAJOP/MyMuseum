@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnYukle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="yukle"
+    android:background="#20497C"
+    tools:context=".view.YuklemeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#20497C"
+        android:backgroundTint="#20497C"
+        android:scrollbarThumbHorizontal="@android:drawable/alert_light_frame"
+        android:scrollbarThumbVertical="@android:drawable/alert_light_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/menum"
+        app:subtitle="Post Oluştur"
+        app:titleTextColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="gorselSec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myToolbar"
+        app:srcCompat="@drawable/uploadpictures_93667" />
+
+    <EditText
+        android:id="@+id/yorumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Yorumunuz"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Yükle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#03A9F4"
+        app:layout_constraintTop_toBottomOf="@+id/yorumText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
